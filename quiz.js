@@ -2,11 +2,22 @@
 
 // Question 1
 // write a function square(x) that returns the argument passed multiplied by itself
+function square(x) {
+  return x*x;
+}
 // then write the functions cube(x), x times x times x,
 // and quad(x), x times x times x times x, using the function square(x)
 // verify that square(2) === 4, cube(3) === 27, and that quad(4) === 64
 
-/* your code starts here */
+function cube(x) {
+  return x*x*x;
+
+}
+
+function quad(x) {
+  return x*x*x*x;
+}
+
 
 /* your code ends here */
 
@@ -24,7 +35,21 @@ if (square(2) !== 4 || cube(3) !== 27 || quad(4) !== 256) {
 // If the flag is truthy, it should return twice that sum
 // If the flag is falsy but not undefined, it should return half that sum
 
-/* your code starts here */
+function sum(numbers, twiceOrHalf) {
+  numbers = [];
+  twiceOrHalf = flag;
+
+  if(flag !== undefined) {
+    console.log numbers.length;
+  }
+  else if (flag) {
+    console.log numbers.length*2;
+  }
+  else if (flag == 0) {
+    console.log numbers.length/2;
+  }
+  return (sum(num))
+}
 
 /* your code ends here */
 
@@ -39,7 +64,10 @@ if (sum(nums) !== 12 || sum(nums, false) !== 6 || sum(nums, !undefined) !== 24) 
 // write a function, max() that loops through zero or more arguments
 // and returns the largest number in that list
 
-/* your code starts here */
+function max() {
+  arguments = [];
+
+}
 
 /* your code ends here */
 
